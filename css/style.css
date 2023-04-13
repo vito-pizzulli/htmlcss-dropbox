@@ -17,12 +17,23 @@
     justify-content: space-between;
   }
 
+  .justify-content-space-around {
+    justify-content: space-around;
+  }
+
   .align-items-center {
     align-items: center;
   }
 
+  .direction-column {
+    flex-direction: column;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
   header {
-    background-color: red;
     padding: 1.2rem;
   }
 
@@ -32,4 +43,62 @@
 
   header > nav > ul > li {
     margin: 0 1rem;
+  }
+
+  .jumbotron {
+    background-color: #b4d0e7;
+  }
+
+  .jumbotron img {
+    width: 800px;
+    left: 30%;
+    top: 40%;
+  }
+
+  .jumbotron h1 {
+    font-size: 4rem;
+    padding: 3rem 0;
+  }
+
+  .jumbotron p,
+  .jumbotron span {
+    font-size: .9rem;
+  }
+
+  .jumbotron i {
+    justify-self: flex-end;
+    padding: 2rem 0;
+    font-size: 4rem;
+  }
+
+  .button {
+    width: fit-content;
+  }
+
+  .jumbotron .button {
+    margin: 1.7rem 0 .7rem 0;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .position-absolute {
+    position: absolute;
+  }
+
+  .margin-auto {
+    margin: 0 auto;
+  }
+
+  .width-70 {
+    width: 70%;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .width-30 {
+    width: 30%;
   }
