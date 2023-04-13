@@ -3,114 +3,124 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .flex {
-    display: flex;
-  }
+.flex {
+display: flex;
+}
 
-  .justify-content-center {
-    justify-content: center;
-  }
+.justify-content-center {
+justify-content: center;
+}
 
-  .justify-content-space-between {
-    justify-content: space-between;
-  }
+.justify-content-space-between {
+justify-content: space-between;
+}
 
-  .justify-content-space-around {
-    justify-content: space-around;
-  }
+.justify-content-space-around {
+justify-content: space-around;
+}
 
-  .align-items-center {
-    align-items: center;
-  }
+.align-items-center {
+align-items: center;
+}
 
-  .direction-column {
-    flex-direction: column;
-  }
+.direction-column {
+flex-direction: column;
+}
 
-  body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: white;
-  }
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: white;
+}
 
-  header {
-    padding: 1.2rem;
-  }
+header {
+padding: 1.2rem;
+}
 
-  ul {
-    list-style-type: none;
-  }
+ul {
+list-style-type: none;
+}
 
-  header > nav > ul > li {
-    margin: 0 1rem;
-  }
+header > nav > ul > li {
+margin: 0 1rem;
+}
 
-  .jumbotron {
-    background-color: #b4d0e7;
-    margin-bottom: 5rem;
-  }
+.jumbotron {
+background-color: #b4d0e7;
+margin-bottom: 5rem;
+}
 
-  .jumbotron img {
-    width: 800px;
-    left: 30%;
-    top: 40%;
-  }
+.jumbotron img {
+width: 800px;
+left: 30%;
+top: 40%;
+}
 
-  .jumbotron h1 {
-    font-size: 4rem;
-    padding: 3rem 0;
-  }
+.jumbotron h1 {
+font-size: 4rem;
+padding: 3rem 0;
+}
 
-  .jumbotron p,
-  .jumbotron span {
-    font-size: .9rem;
-  }
+.jumbotron p,
+.jumbotron span {
+font-size: .9rem;
+}
 
-  .jumbotron i {
-    justify-self: flex-end;
-    padding: 2rem 0;
-    font-size: 4rem;
-  }
+.jumbotron i {
+justify-self: flex-end;
+padding: 2rem 0;
+font-size: 4rem;
+}
 
-  .button {
-    width: fit-content;
-  }
+.button {
+width: fit-content;
+}
 
-  .jumbotron .button {
-    margin: 1.7rem 0 .7rem 0;
-  }
+.business-plan-container button.position-absolute {
+    top: 3rem;
+    right: 2rem;
+}
 
-  .business-plan-container {
-    background-color: red;
-    height: 600px;
-    margin-bottom: 2rem;
-  }
+.jumbotron .button {
+margin: 1.7rem 0 .7rem 0;
+}
 
-  .thin-container {
-    width: calc(100% / 3 - 2rem);
-  }
+.business-plan-container {
+border: 1px solid black;
+margin-bottom: 2rem;
+}
 
-  .position-relative {
-    position: relative;
-  }
+.thin-container {
+width: calc(100% / 3 - 2rem);
+}
 
-  .position-absolute {
-    position: absolute;
-  }
+.container-label {
+border: 1px solid black;
+height: fit-content;
+text-align: center;
+}
 
-  .margin-auto {
-    margin: 0 auto;
-  }
+.position-relative {
+position: relative;
+}
 
-  .width-70 {
-    width: 70%;
-  }
+.position-absolute {
+position: absolute;
+}
 
-  .width-50 {
-    width: 50%;
-  }
+.margin-auto {
+margin: 0 auto;
+}
 
-  .width-30 {
-    width: 30%;
-  }
+.width-70 {
+width: 70%;
+}
+
+.width-50 {
+width: 50%;
+}
+
+.width-30 {
+width: 30%;
+}
