@@ -31,6 +31,7 @@
 
   body {
     font-family: 'Open Sans', sans-serif;
+    background-color: white;
   }
 
   header {
@@ -47,6 +48,7 @@
 
   .jumbotron {
     background-color: #b4d0e7;
+    margin-bottom: 5rem;
   }
 
   .jumbotron img {
@@ -77,6 +79,16 @@
 
   .jumbotron .button {
     margin: 1.7rem 0 .7rem 0;
+  }
+
+  .business-plan-container {
+    background-color: red;
+    height: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .thin-container {
+    width: calc(100% / 3 - 2rem);
   }
 
   .position-relative {
