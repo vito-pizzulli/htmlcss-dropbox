@@ -4,3 +4,32 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .flex {
+    display: flex;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .justify-content-space-between {
+    justify-content: space-between;
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  header {
+    background-color: red;
+    padding: 1.2rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  header > nav > ul > li {
+    margin: 0 1rem;
+  }
