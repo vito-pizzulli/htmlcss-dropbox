@@ -5,37 +5,41 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex {
-display: flex;
+    display: flex;
 }
 
 .justify-content-center {
-justify-content: center;
+    justify-content: center;
 }
 
 .justify-content-space-between {
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 .justify-content-space-around {
-justify-content: space-around;
+    justify-content: space-around;
 }
 
 .align-items-center {
-align-items: center;
+    align-items: center;
 }
 
 .direction-column {
-flex-direction: column;
+    flex-direction: column;
 }
 
 body {
-font-family: 'Open Sans', sans-serif;
-background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
 header {
-padding: 1.2rem;
+    padding: 1.2rem;
 }
 
 header img {
@@ -43,7 +47,7 @@ header img {
 }
 
 ul {
-list-style-type: none;
+    list-style-type: none;
 }
 
 .jumbotron h1 {
@@ -70,8 +74,8 @@ input {
 }
 
 header > nav > ul > li {
-margin: 0 1rem;
-cursor: pointer;
+    margin: 0 1rem;
+    cursor: pointer;
 }
 
 header > nav > ul > li > img {
@@ -79,14 +83,14 @@ header > nav > ul > li > img {
 }
 
 .jumbotron {
-background-color: #b4d0e7;
-margin-bottom: 8rem;
+    background-color: #b4d0e7;
+    margin-bottom: 8rem;
 }
 
 .jumbotron img {
-width: 800px;
-left: 30%;
-top: 40%;
+    width: 800px;
+    left: 30%;
+    top: 40%;
 }
 
 h4,
@@ -99,18 +103,18 @@ header li,
 .business-plan-container i,
 .business-plan-container p,
 .business-plan-informations button {
-font-size: .8rem;
+    font-size: .8rem;
 }
 
 .jumbotron i {
-justify-self: flex-end;
-padding: 5rem 0 1.5rem 0;
-font-size: 3rem;
+    justify-self: flex-end;
+    padding: 5rem 0 1.5rem 0;
+    font-size: 3rem;
 }
 
 .button {
-padding: .6rem .9rem;
-cursor: pointer;
+    padding: .6rem .9rem;
+    cursor: pointer;
 }
 
 .business-plan-container button.position-absolute {
@@ -119,20 +123,20 @@ cursor: pointer;
 }
 
 .jumbotron .button {
-margin: 2rem 0;
+    margin: 2rem 0;
 }
 
 .business-plan-container {
-margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .thin-container {
-width: calc(100% / 3 - 1.5rem);
+    width: calc(100% / 3 - 1.5rem);
 }
 
 .container-label {
-border-bottom: 1px solid #d6d6d9;
-padding: .5rem 0;
+    border-bottom: 1px solid #d6d6d9;
+    padding: .5rem 0;
 }
 
 .business-plan-container h3 + span {
@@ -159,20 +163,17 @@ padding: .5rem 0;
     padding: 1.5rem;
 }
 
-.business-plan-informations .button {
-    margin: 2rem 0;
-}
-
-.business-plan-informations hr{
+.business-plan-informations .button,
+.business-plan-informations hr {
     margin: 2rem 0;
 }
 
 .position-relative {
-position: relative;
+    position: relative;
 }
 
 .position-absolute {
-position: absolute;
+    position: absolute;
 }
 
 .text-align-center {
@@ -180,27 +181,27 @@ position: absolute;
 }
 
 .margin-auto {
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 .margin-1rem {
-margin: 1rem 0;
+    margin: 1rem 0;
 }
 
 .width-100 {
-width: 100%;
+    width: 100%;
 }
 
 .width-70 {
-width: 70%;
+    width: 70%;
 }
 
 .width-50 {
-width: 50%;
+    width: 50%;
 }
 
 .width-30 {
-width: 30%;
+    width: 30%;
 }
 
 .bg-blue {
@@ -213,6 +214,10 @@ width: 30%;
 
 .txt-blue {
     color: #0061ff;;
+}
+
+.txt-black {
+    color: black;
 }
 
 .no-border {
