@@ -59,10 +59,6 @@ h3 {
     font-size: 1.3rem;
 }
 
-h4 {
-    font-size: .8rem;
-}
-
 label {
     padding-right: 2rem;
     vertical-align: text-top;
@@ -93,6 +89,7 @@ left: 30%;
 top: 40%;
 }
 
+h4,
 label,
 header li,
 .jumbotron p,
@@ -117,7 +114,7 @@ cursor: pointer;
 }
 
 .business-plan-container button.position-absolute {
-    top: 3rem;
+    top: 2rem;
     right: 2rem;
 }
 
@@ -141,6 +138,8 @@ padding: .5rem 0;
 .business-plan-container h3 + span {
     font-weight: bold;
     font-size: .7rem;
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 .business-plan-informations br:first-of-type + span {
@@ -182,6 +181,10 @@ position: absolute;
 
 .margin-auto {
 margin: 0 auto;
+}
+
+.margin-1rem {
+margin: 1rem 0;
 }
 
 .width-100 {
