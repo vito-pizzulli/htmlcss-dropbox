@@ -79,13 +79,13 @@ font-size: .9rem;
 
 .jumbotron i {
 justify-self: flex-end;
-padding: 2rem 0;
-font-size: 4rem;
+padding: 2rem 0 1.5rem 0;
+font-size: 3rem;
 }
 
 .button {
 width: fit-content;
-padding: .3rem .9rem;
+padding: .6rem .9rem;
 cursor: pointer;
 }
 
