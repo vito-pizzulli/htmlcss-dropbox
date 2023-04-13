@@ -38,12 +38,17 @@ header {
 padding: 1.2rem;
 }
 
+header img {
+    transform: scale(.9);
+}
+
 ul {
 list-style-type: none;
 }
 
 header > nav > ul > li {
 margin: 0 1rem;
+font-size: .8rem;
 }
 
 .jumbotron {
@@ -75,6 +80,7 @@ font-size: 4rem;
 
 .button {
 width: fit-content;
+padding: .3rem .9rem;
 }
 
 .business-plan-container button.position-absolute {
@@ -123,4 +129,16 @@ width: 50%;
 
 .width-30 {
 width: 30%;
+}
+
+.bg-blue {
+    background-color: #0061ff;
+}
+
+.txt-white {
+    color: white;
+}
+
+.no-border {
+    border: none;
 }
