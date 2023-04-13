@@ -56,7 +56,6 @@ h2 {
 }
 
 label {
-    font-size: .8rem;
     padding-right: 2rem;
     vertical-align: text-top;
 }
@@ -68,7 +67,6 @@ input {
 
 header > nav > ul > li {
 margin: 0 1rem;
-font-size: .8rem;
 cursor: pointer;
 }
 
@@ -87,9 +85,16 @@ left: 30%;
 top: 40%;
 }
 
+label,
+header li,
 .jumbotron p,
-.jumbotron span {
-font-size: .9rem;
+.jumbotron span,
+.business-plan-container li,
+.business-plan-container span,
+.business-plan-container i,
+.business-plan-container p,
+.business-plan-informations button {
+font-size: .8rem;
 }
 
 .jumbotron i {
@@ -114,17 +119,40 @@ margin: 2rem 0;
 }
 
 .business-plan-container {
-border: 1px solid black;
 margin-bottom: 3rem;
 }
 
+.business-plan-informations {
+    padding: 1.5rem;
+}
+
 .thin-container {
-width: calc(100% / 3 - 2rem);
+width: calc(100% / 3 - 1.5rem);
 }
 
 .container-label {
-border: 1px solid black;
 height: fit-content;
+border-bottom: 1px solid #d6d6d9;
+padding: .5rem 0;
+}
+
+.business-plan-container h3 + span {
+    font-weight: bold;
+    font-size: .7rem;
+    padding: 1.2rem 0;
+}
+
+.business-plan-informations br:first-of-type + span {
+    font-size: .7rem;
+    color: grey
+}
+
+.business-plan-container ul {
+    padding: 2rem 0;
+}
+
+.business-plan-container li {
+    padding: .6rem 0;
 }
 
 .position-relative {
@@ -165,4 +193,8 @@ width: 30%;
 
 .no-border {
     border: none;
+}
+
+.thin-border {
+    border: 1px solid #d6d6d9;
 }
