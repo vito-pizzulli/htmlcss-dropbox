@@ -173,7 +173,7 @@ header li,
 }
 
 .business-feature-container {
-    width: calc(100% / 3 - 1.5rem);
+    width: calc(100% / 3 - 2rem);
 }
 
 .position-relative {
@@ -186,14 +186,6 @@ header li,
 
 .text-align-center {
     text-align: center;
-}
-
-.margin-auto {
-    margin: 0 auto;
-}
-
-.margin-1rem {
-    margin: 1rem 0;
 }
 
 .width-100 {
@@ -248,8 +240,24 @@ header li,
     padding: 1rem;
 }
 
+.margin-auto {
+    margin: 0 auto;
+}
+
+.margin-1rem0 {
+    margin: 1rem 0;
+}
+
+.margin-top-3rem {
+    margin-top: 3rem;
+}
+
 .margin-bottom-6rem {
     margin-bottom: 6rem;
+}
+
+.margin-bottom-3rem {
+    margin-bottom: 3rem;
 }
 
 /* CLASSI TEST DA CANCELLARE */
