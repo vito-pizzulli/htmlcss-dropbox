@@ -253,6 +253,10 @@ header li,
     padding: 1rem;
 }
 
+.padding-1rem0 {
+    padding: 1rem 0;
+}
+
 .margin-auto {
     margin: 0 auto;
 }
