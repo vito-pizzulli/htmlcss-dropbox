@@ -87,7 +87,6 @@ header > nav > ul > li > img {
 }
 
 .jumbotron {
-    background-color: #b4d0e7;
     margin-bottom: 8rem;
 }
 
@@ -176,6 +175,16 @@ header li,
     width: calc(100% / 3 - 2rem);
 }
 
+.team-logo-box {
+    width: calc(100% / 2);
+    aspect-ratio: 1;
+}
+
+.team-logo-big-box {
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+}
+
 .position-relative {
     position: relative;
 }
@@ -214,6 +223,10 @@ header li,
 
 .bg-blue {
     background-color: #0061ff;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
 }
 
 .txt-white {
@@ -261,16 +274,19 @@ header li,
 }
 
 /* CLASSI TEST DA CANCELLARE */
-.bg-red {
-    background-color: red;
-    height: 300px;
-}
-
 .bg-yellow {
     background-color: yellow;
     height: 300px;
 }
 
 .border-red {
-    border: 1px solid red;
+    border: 2px solid red;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.bg-goldenrod {
+    background-color: goldenrod;
 }
