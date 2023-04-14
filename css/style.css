@@ -98,14 +98,11 @@ header > nav > ul > li > img {
 
 h4,
 label,
-header li,
-.jumbotron p,
-.jumbotron span,
-.business-plan-container li,
-.business-plan-container span,
-.business-plan-container i,
-.business-plan-container p,
-.business-plan-informations button {
+li,
+span,
+i,
+p,
+button {
     font-size: .8rem;
 }
 
@@ -237,6 +234,10 @@ footer hr {
     background-color: #b4d0e7;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .txt-white {
     color: white;
 }
@@ -259,6 +260,10 @@ footer hr {
 
 .padding-3rem {
     padding: 3rem;
+}
+
+.padding-2rem {
+    padding: 2rem;
 }
 
 .padding-1rem {
@@ -291,6 +296,10 @@ footer hr {
 
 .margin-bottom-3rem {
     margin-bottom: 3rem;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
 }
 
 /* CLASSI TEST DA CANCELLARE */
