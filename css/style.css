@@ -140,6 +140,11 @@ header > nav > ul > li > img {
     color: grey
 }
 
+.business-plan-informations span,
+.business-plan-informations p {
+    font-size: .7rem;
+}
+
 .business-plan-container li {
     padding: .6rem 0;
 }
@@ -349,6 +354,10 @@ header > nav > ul > li > img {
 
 .margin-top-3rem {
     margin-top: 3rem;
+}
+
+.margin-right-point4rem {
+    margin-right: .4rem;
 }
 
 .margin-bottom-8rem {
