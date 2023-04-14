@@ -42,10 +42,6 @@ body {
     background-color: white;
 }
 
-header {
-    padding: 1.2rem;
-}
-
 header img {
     transform: scale(.9);
 }
@@ -54,7 +50,7 @@ ul {
     list-style-type: none;
 }
 
-.jumbotron h1 {
+h1 {
     font-size: 4rem;
     padding: 3rem 0;
 }
@@ -67,6 +63,16 @@ h3 {
     font-size: 1.3rem;
 }
 
+h4,
+label,
+li,
+span,
+i,
+p,
+button {
+    font-size: .8rem;
+}
+
 label {
     padding-right: 2rem;
     vertical-align: text-top;
@@ -74,7 +80,10 @@ label {
 
 input {
     transform: scale(1.3);
-    margin: 3rem 0;
+}
+
+footer {
+    background-color: black;
 }
 
 header > nav > ul > li {
@@ -86,24 +95,10 @@ header > nav > ul > li > img {
     cursor: auto;
 }
 
-.jumbotron {
-    margin-bottom: 8rem;
-}
-
 .jumbotron img {
     width: 800px;
     left: 30%;
     top: 43%;
-}
-
-h4,
-label,
-li,
-span,
-i,
-p,
-button {
-    font-size: .8rem;
 }
 
 .jumbotron i {
@@ -120,14 +115,6 @@ button {
 .business-plan-container button.position-absolute {
     top: 2rem;
     right: 2rem;
-}
-
-.jumbotron .button {
-    margin: 2rem 0;
-}
-
-.business-plan-container {
-    margin-bottom: 3rem;
 }
 
 .thin-container {
@@ -151,21 +138,8 @@ button {
     color: grey
 }
 
-.business-plan-container ul {
-    padding-top: 2rem;
-}
-
 .business-plan-container li {
     padding: .6rem 0;
-}
-
-.business-plan-informations {
-    padding: 1.5rem;
-}
-
-.business-plan-informations .button,
-.business-plan-informations hr {
-    margin: 2rem 0;
 }
 
 .business-feature-container {
@@ -195,10 +169,6 @@ button {
 
 .team-logo-big-box hr {
     flex: none;
-}
-
-footer {
-    background-color: black;
 }
 
 .position-relative {
@@ -326,12 +296,24 @@ footer {
     padding: 2rem;
 }
 
+.padding-1point5rem {
+    padding: 1.5rem;
+}
+
+.padding-1point2rem {
+    padding: 1.2rem;
+}
+
 .padding-1rem {
     padding: 1rem;
 }
 
 .padding-1rem0 {
     padding: 1rem 0;
+}
+
+.padding-top-2rem {
+    padding-top: 2rem;
 }
 
 .margin-auto {
@@ -342,12 +324,20 @@ footer {
     margin: 3rem 0;
 }
 
+.margin-2rem0 {
+    margin: 2rem 0;
+}
+
 .margin-1rem0 {
     margin: 1rem 0;
 }
 
 .margin-top-3rem {
     margin-top: 3rem;
+}
+
+.margin-bottom-8rem {
+    margin-bottom: 8rem;
 }
 
 .margin-bottom-6rem {
