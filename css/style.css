@@ -90,7 +90,7 @@ header > nav > ul > li > img {
 .jumbotron img {
     width: 800px;
     left: 30%;
-    top: 40%;
+    top: 43%;
 }
 
 h4,
@@ -196,8 +196,16 @@ header li,
     width: 70%;
 }
 
+.width-60 {
+    width: 60%;
+}
+
 .width-50 {
     width: 50%;
+}
+
+.width-40 {
+    width: 40%;
 }
 
 .width-30 {
@@ -226,4 +234,27 @@ header li,
 
 .thin-border {
     border: 1px solid #d6d6d9;
+}
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.margin-bottom-6rem {
+    margin-bottom: 6rem;
+}
+
+/* CLASSI TEST DA CANCELLARE */
+.bg-red {
+    background-color: red;
+    height: 300px;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    height: 300px;
+}
+
+.border-red {
+    border: 1px solid red;
 }
