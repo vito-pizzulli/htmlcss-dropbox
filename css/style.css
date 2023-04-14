@@ -178,6 +178,11 @@ header > nav > ul > li > img {
     flex: none;
 }
 
+.faq i {
+    font-size: .5rem;
+    cursor: pointer;
+}
+
 /* Position */
 .position-relative {
     position: relative;
@@ -295,6 +300,10 @@ header > nav > ul > li > img {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Border Properties */
 .no-border {
     border: none;
@@ -328,6 +337,10 @@ header > nav > ul > li > img {
     padding: 6rem 0;
 }
 
+.padding-2rem0 {
+    padding: 2rem 0;
+}
+
 .padding-1rem0 {
     padding: 1rem 0;
 }
@@ -336,6 +349,7 @@ header > nav > ul > li > img {
     padding-top: 2rem;
 }
 
+/* Margin */
 .margin-auto {
     margin: 0 auto;
 }
@@ -354,6 +368,10 @@ header > nav > ul > li > img {
 
 .margin-top-3rem {
     margin-top: 3rem;
+}
+
+.margin-right-2rem {
+    margin-right: 2rem;
 }
 
 .margin-right-point4rem {
