@@ -33,6 +33,10 @@ html {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
@@ -166,6 +170,10 @@ header li,
 .business-plan-informations .button,
 .business-plan-informations hr {
     margin: 2rem 0;
+}
+
+.business-feature-container {
+    width: calc(100% / 3 - 1.5rem);
 }
 
 .position-relative {
