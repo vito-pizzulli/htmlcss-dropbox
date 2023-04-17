@@ -107,6 +107,11 @@ footer nav > ul > li {
     cursor: pointer;
 }
 
+footer nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
 footer nav > ul > li:first-of-type {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
