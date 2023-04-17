@@ -392,6 +392,10 @@ footer i:last-of-type {
     margin-right: 2rem;
 }
 
+.margin-right-1rem {
+    margin-right: 1rem;
+}
+
 .margin-right-point4rem {
     margin-right: .4rem;
 }
@@ -414,4 +418,18 @@ footer i:last-of-type {
 
 .margin-bottom-1rem {
     margin-bottom: 1rem;
+}
+
+/* Classi del bonus - da sistemare */
+.navbar-pop-menu {
+    background-color: white;
+    top: 255%;
+    left: 0%;
+    border: 1px solid black;
+    z-index: 1;
+    display: none;
+}
+
+.navbar-element:hover .navbar-pop-menu {
+    display: flex;
 }
