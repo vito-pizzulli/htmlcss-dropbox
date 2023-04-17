@@ -241,18 +241,6 @@ footer i:last-of-type {
     width: 10%;
 }
 
-.max-width-100 {
-    max-width: 1920px;
-}
-
-.max-width-60 {
-    max-width: 1152px;
-}
-
-.max-width-30 {
-    max-width: 576px;
-}
-
 /* Background Color */
 .bg-blue {
     background-color: #0061ff;
