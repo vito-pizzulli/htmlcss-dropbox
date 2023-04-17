@@ -189,16 +189,12 @@ footer i:last-of-type {
     height: calc(100vw / 3);
 }
 
-.team-logo-box img {
+.invert {
     filter: invert(1);
 }
 
 .team-logo-big-box img {
     width: 60%;
-}
-
-.team-logo-big-box hr {
-    flex: none;
 }
 
 .faq i {
@@ -529,4 +525,16 @@ footer i:last-of-type {
 
 a:hover {
     text-decoration: none;
+}
+
+.designit-info {
+    display: none;
+    top: 10%;
+    left: 35%;
+    color: black;
+    width: 30vw;
+}
+
+.designit-logo:hover .designit-info {
+    display: block;
 }
