@@ -193,8 +193,13 @@ footer i:last-of-type {
     filter: invert(1);
 }
 
-.team-logo-big-box img {
+.team-logo-box img {
+    width: 35%;
+}
+
+.team-logo-box > img {
     width: 60%;
+    aspect-ratio: auto;
 }
 
 .faq i {
@@ -527,7 +532,14 @@ a:hover {
     text-decoration: none;
 }
 
-.designit-info {
+.designit-info,
+.asu-info,
+.uf-info,
+.topps-info,
+.wbr-info,
+.hearst-info,
+.lonely-planet-info,
+.cco-info {
     display: none;
     top: 10%;
     left: 35%;
@@ -535,6 +547,13 @@ a:hover {
     width: 30vw;
 }
 
-.designit-logo:hover .designit-info {
+.designit-logo:hover .designit-info,
+.asu-logo:hover .asu-info,
+.uf-logo:hover .uf-info,
+.topps-logo:hover .topps-info,
+.wbr-logo:hover .wbr-info,
+.hearst-logo:hover .hearst-info,
+.lonely-planet-logo:hover .lonely-planet-info,
+.cco-logo:hover .cco-info {
     display: block;
 }
