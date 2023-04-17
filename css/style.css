@@ -359,12 +359,20 @@ footer i:last-of-type {
     padding: 2rem 0;
 }
 
+.padding-1point5rem0 {
+    padding: 1.5rem 0;
+}
+
 .padding-1rem0 {
     padding: 1rem 0;
 }
 
 .padding-top-2rem {
     padding-top: 2rem;
+}
+
+.padding-right-1rem {
+    padding-right: 1rem;
 }
 
 /* Margin */
@@ -386,6 +394,10 @@ footer i:last-of-type {
 
 .margin-top-3rem {
     margin-top: 3rem;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
 }
 
 .margin-right-2rem {
@@ -421,15 +433,45 @@ footer i:last-of-type {
 }
 
 /* Classi del bonus - da sistemare */
-.navbar-pop-menu {
+.navbar-drop-menu {
     background-color: white;
-    top: 255%;
-    left: 0%;
+    top: 102%;
+    left: -20%;
     border: 1px solid black;
     z-index: 1;
-    display: none;
+    opacity: 0;
 }
 
-.navbar-element:hover .navbar-pop-menu {
-    display: flex;
+.navbar-element {
+    border-bottom: 2px solid white;
+}
+
+.navbar-element:hover {
+    border-bottom: 2px solid black;
+}
+
+.navbar-element:hover .navbar-drop-menu {
+    opacity: 1;
+}
+
+.navbar-drop-menu {
+    width: 40vw;
+}
+
+.navbar-drop-menu ul {
+    width: calc(100% / 3);
+}
+
+.navbar-drop-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-drop-menu li {
+    margin: 1rem;
+}
+
+.navbar-drop-menu li:first-of-type {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
