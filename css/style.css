@@ -34,6 +34,10 @@
     flex-wrap: wrap;
 }
 
+.nowrap {
+    flex-wrap: nowrap;
+}
+
 /* Element Properties */
 html {
     scroll-behavior: smooth;
@@ -42,6 +46,10 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+}
+
+header {
+    border-bottom: 1px solid rgb(128, 128, 128, 0.5);
 }
 
 header img {
@@ -91,10 +99,6 @@ footer {
 header > nav > ul > li {
     margin: 0 1rem;
     cursor: pointer;
-}
-
-header > nav > ul > li > img {
-    cursor: auto;
 }
 
 footer nav > ul > li {
@@ -240,6 +244,26 @@ footer i:last-of-type {
 
 .width-10 {
     width: 10%;
+}
+
+.width-600px {
+    width: 600px;
+}
+
+.width-400px {
+    width: 400px;
+}
+
+.width-200px {
+    width: 200px;
+}
+
+.width-100percentdiv3 {
+    width: calc(100% / 3);
+}
+
+.width-100percentdiv2 {
+    width: calc(100% / 2);
 }
 
 /* Background Color */
@@ -432,14 +456,17 @@ footer i:last-of-type {
     margin-bottom: 1rem;
 }
 
-/* Classi del bonus - da sistemare */
+.margin-left-1rem {
+    margin-left: 1rem;
+}
+
+/* Bonus Classes */
 .navbar-drop-menu {
     background-color: white;
-    top: 102%;
+    top: 104%;
     left: -20%;
-    border: 1px solid black;
     z-index: 1;
-    opacity: 0;
+    display: none;
 }
 
 .navbar-element {
@@ -451,27 +478,25 @@ footer i:last-of-type {
 }
 
 .navbar-element:hover .navbar-drop-menu {
-    opacity: 1;
+    display: flex;
 }
 
-.navbar-drop-menu {
-    width: 40vw;
-}
-
-.navbar-drop-menu ul {
-    width: calc(100% / 3);
+.navbar-drop-menu a:hover {
+    background-color: #ebebeb;
 }
 
 .navbar-drop-menu a {
     text-decoration: none;
     color: black;
+    display: block;
+    padding: 1rem;
 }
 
-.navbar-drop-menu li {
-    margin: 1rem;
-}
-
-.navbar-drop-menu li:first-of-type {
+.bold{
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.button.bg-blue:hover {
+    background-color: #3b85ff;
 }
