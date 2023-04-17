@@ -203,7 +203,6 @@ footer i:last-of-type {
 }
 
 .faq i {
-    font-size: .5rem;
     cursor: pointer;
 }
 
@@ -337,10 +336,6 @@ footer i:last-of-type {
 
 .text-align-center {
     text-align: center;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 /* Border Properties */
@@ -556,4 +551,23 @@ a:hover {
 .lonely-planet-logo:hover .lonely-planet-info,
 .cco-logo:hover .cco-info {
     display: block;
+}
+
+.faq-drop-info {
+    visibility: hidden;
+    height: 0;
+}
+
+.faq-row:hover .faq-drop-info {
+    visibility: visible;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.faq-row i {
+    transition: transform 0.3s;
+}
+
+.faq-row:hover i {
+    transform: rotate(180deg);
 }
