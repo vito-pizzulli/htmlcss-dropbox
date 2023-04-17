@@ -181,6 +181,7 @@ footer i:last-of-type {
 .team-logo-box {
     width: calc(100% / 2);
     aspect-ratio: 1;
+    border: 10px solid transparent;
 }
 
 .team-logo-big-box {
@@ -193,7 +194,7 @@ footer i:last-of-type {
 }
 
 .team-logo-big-box img {
-    width: 50%;
+    width: 60%;
 }
 
 .team-logo-big-box hr {
@@ -294,7 +295,6 @@ footer i:last-of-type {
 
 .bg-lightgreen {
     background-color: #a2d39b;
-    border: 15px solid #d1e9cd;
 }
 
 .bg-brown {
@@ -521,4 +521,8 @@ footer i:last-of-type {
     100% {
         width: 100%;
     }
+}
+
+.team-logo-box:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
