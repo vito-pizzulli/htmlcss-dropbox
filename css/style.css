@@ -179,7 +179,8 @@ footer i:last-of-type {
 }
 
 .team-logo-big-box {
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .team-logo-box img {
