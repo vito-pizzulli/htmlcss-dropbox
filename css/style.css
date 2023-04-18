@@ -211,6 +211,98 @@ footer i:last-of-type {
     cursor: pointer;
 }
 
+.navbar-drop-menu {
+    background-color: white;
+    top: 104%;
+    left: -20%;
+    z-index: 1;
+    display: none;
+}
+
+.navbar-element {
+    border-bottom: 2px solid white;
+}
+
+.navbar-element:hover {
+    border-bottom: 2px solid black;
+}
+
+.navbar-element:hover .navbar-drop-menu {
+    display: flex;
+}
+
+.navbar-drop-menu a:hover {
+    background-color: #ebebeb;
+}
+
+.navbar-drop-menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1rem;
+}
+
+.button.bg-blue:hover {
+    background-color: #3b85ff;
+}
+
+.button.bg-white:hover {
+    background-color: #f5f5f5;
+}
+
+.team-logo-box:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.designit-info,
+.asu-info,
+.uf-info,
+.topps-info,
+.wbr-info,
+.hearst-info,
+.lonely-planet-info,
+.cco-info {
+    display: none;
+    top: 10%;
+    left: 35%;
+    color: black;
+    width: 30vw;
+}
+
+.designit-logo:hover .designit-info,
+.asu-logo:hover .asu-info,
+.uf-logo:hover .uf-info,
+.topps-logo:hover .topps-info,
+.wbr-logo:hover .wbr-info,
+.hearst-logo:hover .hearst-info,
+.lonely-planet-logo:hover .lonely-planet-info,
+.cco-logo:hover .cco-info {
+    display: block;
+}
+
+.faq-drop-info {
+    visibility: hidden;
+    height: 0;
+}
+
+.faq-row:hover .faq-drop-info {
+    visibility: visible;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.faq-row i {
+    transition: transform 0.3s;
+}
+
+.faq-row:hover i {
+    transform: rotate(180deg);
+}
+
 /* Position */
 .position-relative {
     position: relative;
@@ -343,6 +435,11 @@ footer i:last-of-type {
     text-align: center;
 }
 
+.bold{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 /* Border Properties */
 .no-border {
     border: none;
@@ -462,51 +559,7 @@ footer i:last-of-type {
     margin-left: 1rem;
 }
 
-/* Bonus Classes */
-.navbar-drop-menu {
-    background-color: white;
-    top: 104%;
-    left: -20%;
-    z-index: 1;
-    display: none;
-}
-
-.navbar-element {
-    border-bottom: 2px solid white;
-}
-
-.navbar-element:hover {
-    border-bottom: 2px solid black;
-}
-
-.navbar-element:hover .navbar-drop-menu {
-    display: flex;
-}
-
-.navbar-drop-menu a:hover {
-    background-color: #ebebeb;
-}
-
-.navbar-drop-menu a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 1rem;
-}
-
-.bold{
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.button.bg-blue:hover {
-    background-color: #3b85ff;
-}
-
-.button.bg-white:hover {
-    background-color: #f5f5f5;
-}
-
+/* Animations */
 .animated-black-line {
     background-color: black;
     height: 5px;
@@ -522,57 +575,4 @@ footer i:last-of-type {
     100% {
         width: 100%;
     }
-}
-
-.team-logo-box:hover {
-    border: 10px solid rgba(255, 255, 255, 0.5);
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.designit-info,
-.asu-info,
-.uf-info,
-.topps-info,
-.wbr-info,
-.hearst-info,
-.lonely-planet-info,
-.cco-info {
-    display: none;
-    top: 10%;
-    left: 35%;
-    color: black;
-    width: 30vw;
-}
-
-.designit-logo:hover .designit-info,
-.asu-logo:hover .asu-info,
-.uf-logo:hover .uf-info,
-.topps-logo:hover .topps-info,
-.wbr-logo:hover .wbr-info,
-.hearst-logo:hover .hearst-info,
-.lonely-planet-logo:hover .lonely-planet-info,
-.cco-logo:hover .cco-info {
-    display: block;
-}
-
-.faq-drop-info {
-    visibility: hidden;
-    height: 0;
-}
-
-.faq-row:hover .faq-drop-info {
-    visibility: visible;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.faq-row i {
-    transition: transform 0.3s;
-}
-
-.faq-row:hover i {
-    transform: rotate(180deg);
 }
